@@ -1,0 +1,98 @@
+{
+    "casas" : {
+    "cabana": {
+        "url": "casas/cabana.png",
+        "caption": "A wooden cabin in the mountains surrounded by pine trees"
+    },
+    "casas_abstracta": {
+        "url": "casas/casa_abstracta.png",
+        "caption": "A house with abstract architecture featuring curved roofs and gray tiles"
+    },
+    "casas_campo": {
+        "url": "casas/casa_campo.png",
+        "caption": "A red brick house standing alone in the middle of a field"
+    },
+    "casas_moderna": {
+        "url": "casas/casa_moderna.png",
+        "caption": "A modern rectangular house with white and gray tones"
+    },
+    "casas_playa": {
+        "url": "casas/casa_playa.png",
+        "caption": "A glass-fronted house facing the beach with three sun loungers on the sand"
+    }
+    
+    },
+
+    "perros": {
+
+    "bulldog": {
+        "url": "perros/bulldog.png",
+        "caption": "A bulldog puppy with brown and white spots splashing in the water"
+    },
+    "caniche": {
+        "url": "perros/caniche.png",
+        "caption": "A brown curly-haired poodle lying on the floor inside a house"
+    },
+    "doberman": {
+        "url": "perros/doberman.png",
+        "caption": "A black and brown Doberman with pointed ears lying in a meadow with yellow flowers"
+    },
+    "golden-retriever": {
+        "url": "perros/golden-retriever.png",
+        "caption": "A beige golden retriever puppy surrounded by fallen tree leaves"
+    },
+    "pastor-aleman": {
+        "url": "perros/pastor-aleman.png",
+        "caption": "A German shepherd with its brown and black puppy, the larger dog carrying a stick in its mouth"
+    }
+    },
+
+    "pajaros": {
+
+    "canario": {
+        "url": "pajaros/canario.png",
+        "caption": "A small bright yellow canary perched on a wooden stick"
+    },
+    "colibri": {
+        "url": "pajaros/colibri.png",
+        "caption": "A blue hummingbird with a long beak perched on a branch"
+    },
+    "loro": {
+        "url": "pajaros/loro.png",
+        "caption": "A colorful parrot with red, yellow, and blue feathers perched on a stick"
+    },
+    "periquitos": {
+        "url": "pajaros/periquitos.png",
+        "caption": "Two bluish parakeets with slightly yellow heads facing each other on a branch"
+    },
+    "vencejo": {
+        "url": "pajaros/vencejo.png",
+        "caption": "A gray swift bird with dark eyes and large wings perched on a stick"
+    }
+
+    },
+
+    "paisajes": {
+
+    "cascada": {
+        "url": "paisajes/cascada.png",
+        "caption": "A blue waterfall surrounded by snow and mountains"
+    },
+    "ciudad": {
+        "url": "paisajes/ciudad.png",
+        "caption": "Tall skyscrapers forming a vibrant and bustling city skyline"
+    },
+    "lago": {
+        "url": "paisajes/lago.png",
+        "caption": "A lake reflecting the surrounding mountains and pine trees"
+    },
+    "montana": {
+        "url": "paisajes/montana.png",
+        "caption": "A rocky mountain overlooking a meadow and a small village with a few houses"
+    },
+    "playa": {
+        "url": "paisajes/playa.png",
+        "caption": "A palm tree standing by the shore of a crystal-clear sea"
+    }
+}   
+}
