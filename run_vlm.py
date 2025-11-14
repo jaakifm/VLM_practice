@@ -16,6 +16,7 @@ import torch
 import evaluate
 from collections import defaultdict
 
+from transformers import AutoProcessor, AutoModelForVision2Seq
 
 def load_labels(path):
     with open(path, 'r', encoding='utf-8') as f:
@@ -53,8 +54,13 @@ def main():
 
     print("Cargando pipeline de image-to-text:", args.model)
 
-    processor = BlipProcessor.from_pretrained(args.model)
-    model = BlipForConditionalGeneration.from_pretrained(args.model)
+
+
+    processor = AutoProcessor.from_pretrained(args.model)
+    model = AutoModelForVision2Seq.from_pretrained(args.model)
+
+    #processor = BlipProcessor.from_pretrained(args.model)
+    #model = BlipForConditionalGeneration.from_pretrained(args.model)
 
     def generate_caption(image):
         inputs = processor(images=image, return_tensors="pt")
